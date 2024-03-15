@@ -205,7 +205,7 @@ ul.row{
 
 .card-services a {
 	display: block;
-	font-size: 2rem;
+	padding: 2rem;
 	background-color: var(--color-light-grey);
 }
 
@@ -219,7 +219,7 @@ ul.row{
 	color: var(--text-color);
 }
 
-.footer-copyright{
+.footer-copyright {
 	margin: 0;
 	font-size: var(--font-size-small);
 	color: var(--text-color);
