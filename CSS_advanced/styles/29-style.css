@@ -106,6 +106,21 @@ body {
     color: var(--nav-item-link-hover);
 }
 
+.nav .nav-link::before {
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
+}
+
+.nav:hover .nav-item:hover .nav-link::before {
+	background-color: var(--color-primary);
+	width: 100%;
+}
+
 a {
 	color: var(--text-color);
 	text-decoration: none;
@@ -295,21 +310,6 @@ ul.row{
 	position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
-}
-
-nav .nav-link::before {
-	content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 0.2rem;
-}
-
-.nav:hover .nav-item:hover .nav-link::before {
-	background-color: var(--color-primary);
-	width: 100%;
 }
 
 .footer-address {
