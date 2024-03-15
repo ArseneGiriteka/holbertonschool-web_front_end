@@ -78,7 +78,7 @@ body {
 
 .nav .nav-link {
     display: block;
-    padding: calc(0.5 * var(--root-element-padding)) var(--root-element-padding);
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
